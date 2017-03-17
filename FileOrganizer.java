@@ -162,7 +162,7 @@ public class FileOrganizer extends JFrame implements ActionListener{
 		Scanner fileInput = null;
 		String fileName = fileNameField.getText();
 		File fileObject = new File(fileName);
-		File copyFile = new File("/Users/Ada Suazo/CMP326/ProjectTwo/test1.txt");
+		File copyFile = new File("/Users/Katherine Suazo/CMP326/ProjectTwo/test1.txt");
 		
 		InputStream inStream = null;
 		OutputStream outStream = null;
@@ -195,7 +195,7 @@ public class FileOrganizer extends JFrame implements ActionListener{
 		FileOrganizer gui = new FileOrganizer();
 		gui.setVisible(true);
 		gui.setLocation(500,250);
-		listFilesRec(new File("/Users/CMP326/ProjectTwo/"));
+		listFilesRec(new File("/Users/Katherine Suazo/CMP326/ProjectTwo/"));
 	}
 	
 	public static void listFilesRec(File f){
